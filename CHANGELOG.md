@@ -41,6 +41,8 @@ This project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 - If World Builder is configured with MPI it now reads input files on a single process and distributes them via MPI to other processes to reduce I/O load. This can be extended in the future to other input files. \[Rene Gassmoeller; 2023-04-13; [#480](github.com/GeodynamicWorldBuilder/WorldBuilder/pull/480)\]
 - Added a new html manual based on Sphinx, including a new tutorial which was designed from scratch to get new users up to speed quickly. It also contains a much structure to add cookbooks, developer and other documentation in the future. \[Menno Fraters; 2023-05-31; [#379](https://github.com/GeodynamicWorldBuilder/WorldBuilder/pull/489), [#379](https://github.com/GeodynamicWorldBuilder/WorldBuilder/issues/379) the related pull request mentioned in that issue.\]
 
+- Added an option to use the plate model as the reference model for the mass conserving temperature of the slab. \[Haoyuan Li; 2023-02-05; [#471](https://github.com/GeodynamicWorldBuilder/WorldBuilder/pull/471)
+ 
 ### Changed
 - The World Builder Visualizer will now use zlib compression for vtu files by default. If zlib is not available binary output will be used. \[Menno Fraters; 2021-06-26; [#282](github.com/GeodynamicWorldBuilder/WorldBuilder/pull/282)\]
 - The return argument type of the distance_point_from_curved_planes function has been converted from a map to a struct, requiring a change in the plugin interfaces for 'fault_models' and 'subducting_plate_models', but significantly increasing the speed of the function and all functions that access its returned values. \[Rene Gassmoeller; 2021-06-27; [#289](github.com/GeodynamicWorldBuilder/WorldBuilder/issues/289)\]
