@@ -224,7 +224,7 @@ namespace WorldBuilder
         }
 
         double
-        MassConserving::get_temperature(const Point<3> & /*position_in_cartesian_coordinates*/,
+        MassConserving::get_temperature(const Point<3> &position /*position_in_cartesian_coordinates*/,
                                         const double depth,
                                         const double gravity_norm,
                                         double temperature_,
@@ -243,16 +243,25 @@ namespace WorldBuilder
 
               const CoordinateSystem coordinate_system = world->parameters.coordinate_system->natural_coordinate_system();
               double distance_ridge = std::numeric_limits<double>::max();
+              Objects::NaturalCoordinate position_in_natural_coordinates_at_min_depth = Objects::NaturalCoordinate(position,
+                                                                                        *(world->parameters.coordinate_system));
+              position_in_natural_coordinates_at_min_depth.get_ref_depth_coordinate() += depth-min_depth;
+              
               const Point<3> trench_point = distance_from_planes.closest_trench_point;
               const Objects::NaturalCoordinate trench_point_natural = Objects::NaturalCoordinate(trench_point,
                                                                       *(world->parameters.coordinate_system));
               const Point<2> trench_point_2d(trench_point_natural.get_surface_coordinates(),trench_point_natural.get_coordinate_system());
-              // find the distance between the trench and ridge
-
-
               // first find if the coordinate is on this side of a ridge
               unsigned int relevant_ridge = 0;
 
+              const Point<2> check_point(position_in_natural_coordinates_at_min_depth.get_surface_coordinates(),
+                                          position_in_natural_coordinates_at_min_depth.get_coordinate_system());
+
+              Point<2> other_check_point = check_point;
+              if (check_point.get_coordinate_system() == CoordinateSystem::spherical)
+                {
+                  other_check_point[0] += check_point[0] < 0 ? 2.0 * WorldBuilder::Consts::PI : -2.0 * WorldBuilder::Consts::PI;
+                }
 
               // if there is only one ridge, there is no transform
               if (mid_oceanic_ridges.size() > 1)
@@ -284,37 +293,62 @@ namespace WorldBuilder
                     }
                 }
 
-              for (unsigned int i_coordinate = 0; i_coordinate < mid_oceanic_ridges[relevant_ridge].size() - 1; i_coordinate++)
-                {
-                  const Point<2> segment_point0 = mid_oceanic_ridges[relevant_ridge][i_coordinate];
-                  const Point<2> segment_point1 = mid_oceanic_ridges[relevant_ridge][i_coordinate + 1];
 
-                  // based on http://geomalgorithms.com/a02-_lines.html
-                  const Point<2> v = segment_point1 - segment_point0;
-                  const Point<2> w = trench_point_2d - segment_point0;
+                   for (unsigned int i_coordinate = 0; i_coordinate < mid_oceanic_ridges[relevant_ridge].size() - 1; i_coordinate++)
+                    {
+                      const Point<2> segment_point0 = mid_oceanic_ridges[relevant_ridge][i_coordinate];
+                      const Point<2> segment_point1 = mid_oceanic_ridges[relevant_ridge][i_coordinate + 1];
 
-                  const double c1 = (w[0] * v[0] + w[1] * v[1]);
-                  const double c2 = (v[0] * v[0] + v[1] * v[1]);
+                      // based on http://geomalgorithms.com/a02-_lines.html
+                      const Point<2> v = segment_point1 - segment_point0;
+                      const Point<2> w1 = check_point - segment_point0;
+                      const Point<2> w2 = other_check_point - segment_point0;
 
-                  Point<2> Pb(coordinate_system);
-                  // This part is needed when we want to consider segments instead of lines
-                  // If you want to have infinite lines, use only the else statement.
+                      const double c1 = (w1[0] * v[0] + w1[1] * v[1]);
+                      const double c2 = (v[0] * v[0] + v[1] * v[1]);
+                      const double c3 = (w2[0] * v[0] + w2[1] * v[1]);
 
-                  if (c1 <= 0)
-                    Pb = segment_point0;
-                  else if (c2 <= c1)
-                    Pb = segment_point1;
-                  else
-                    Pb = segment_point0 + (c1 / c2) * v;
+                      Point<2> Pb1(coordinate_system);
+                      Point<2> Pb2(coordinate_system);
+                      // This part is needed when we want to consider segments instead of lines
+                      // If you want to have infinite lines, use only the else statement.
 
-                  Point<3> compare_point(coordinate_system);
+                      if (c1 <= 0)
+                        {
+                          Pb1=segment_point0;
+                          Pb2=segment_point0;
+                        }
+                      else if (c2 <= c1)
+                        Pb1=segment_point1;
+                      else if (c3 <= c1)
+                        Pb2=segment_point1;
+                      else
+                        {
+                          Pb1 = segment_point0 + (c1 / c2) * v;
+                          Pb2 = segment_point0 + (c1 / c3) * v;
+                        }
 
-                  compare_point[0] = coordinate_system == cartesian ? Pb[0] : trench_point_natural.get_depth_coordinate();
-                  compare_point[1] = coordinate_system == cartesian ? Pb[1] : Pb[0];
-                  compare_point[2] = coordinate_system == cartesian ? trench_point_natural.get_depth_coordinate() : Pb[1];
+                      Point<3> compare_point1(coordinate_system);
+                      Point<3> compare_point2(coordinate_system);
 
-                  distance_ridge = std::min(distance_ridge, this->world->parameters.coordinate_system->distance_between_points_at_same_depth(Point<3>(trench_point_natural.get_coordinates(),trench_point_natural.get_coordinate_system()), compare_point));
-                }
+                      compare_point1[0] = coordinate_system == cartesian ? Pb1[0] :  position_in_natural_coordinates_at_min_depth.get_depth_coordinate();
+                      compare_point1[1] = coordinate_system == cartesian ? Pb1[1] : Pb1[0];
+                      compare_point1[2] = coordinate_system == cartesian ? position_in_natural_coordinates_at_min_depth.get_depth_coordinate() : Pb1[1];
+
+                      compare_point2[0] = coordinate_system == cartesian ? Pb2[0] :  position_in_natural_coordinates_at_min_depth.get_depth_coordinate();
+                      compare_point2[1] = coordinate_system == cartesian ? Pb2[1] : Pb2[0];
+                      compare_point2[2] = coordinate_system == cartesian ? position_in_natural_coordinates_at_min_depth.get_depth_coordinate() : Pb2[1];
+
+                      distance_ridge = std::min(distance_ridge,
+                                                this->world->parameters.coordinate_system->distance_between_points_at_same_depth(Point<3>(position_in_natural_coordinates_at_min_depth.get_coordinates(),
+                                                  position_in_natural_coordinates_at_min_depth.get_coordinate_system()),
+                                                  compare_point1));
+
+                      distance_ridge = std::min(distance_ridge,
+                                                this->world->parameters.coordinate_system->distance_between_points_at_same_depth(Point<3>(position_in_natural_coordinates_at_min_depth.get_coordinates(),
+                                                  position_in_natural_coordinates_at_min_depth.get_coordinate_system()),
+                                                  compare_point2));
+                    }
 
               const double km2m = 1.0e3; // 1000 m/km
               const double cm2m = 100; // 100 cm/m
