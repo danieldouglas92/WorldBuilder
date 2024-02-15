@@ -229,8 +229,8 @@
                                             "type": "array",
                                             "additionalProperties": false,
                                             "minItems": 1,
-                                            "maxItems": 2,
-                                            "description": "",
+                                            "maxItems": 2.0,
+                                            "documentation": "",
                                             "items": {
                                                 "anyOf": [
                                                     {
@@ -244,7 +244,7 @@
                                                         "items": {
                                                             "type": "array",
                                                             "minItems": 1,
-                                                            "maxItems": 2,
+                                                            "maxItems": 2.0,
                                                             "items": {
                                                                 "type": "number"
                                                             }
@@ -274,8 +274,8 @@
                                             "type": "array",
                                             "additionalProperties": false,
                                             "minItems": 1,
-                                            "maxItems": 2,
-                                            "description": "",
+                                            "maxItems": 2.0,
+                                            "documentation": "",
                                             "items": {
                                                 "anyOf": [
                                                     {
@@ -289,7 +289,7 @@
                                                         "items": {
                                                             "type": "array",
                                                             "minItems": 1,
-                                                            "maxItems": 2,
+                                                            "maxItems": 2.0,
                                                             "items": {
                                                                 "type": "number"
                                                             }
@@ -351,8 +351,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -366,7 +366,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -396,8 +396,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -411,7 +411,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -485,8 +485,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -500,7 +500,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -530,8 +530,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -545,7 +545,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -614,8 +614,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -629,7 +629,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -659,8 +659,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -674,7 +674,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -737,8 +737,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -752,7 +752,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -782,8 +782,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -797,7 +797,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -890,8 +890,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -905,7 +905,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -935,8 +935,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -950,7 +950,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -1043,8 +1043,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -1058,7 +1058,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -1088,8 +1088,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -1103,7 +1103,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -3421,8 +3421,8 @@
                                             "type": "array",
                                             "additionalProperties": false,
                                             "minItems": 1,
-                                            "maxItems": 2,
-                                            "description": "",
+                                            "maxItems": 2.0,
+                                            "documentation": "",
                                             "items": {
                                                 "anyOf": [
                                                     {
@@ -3436,7 +3436,7 @@
                                                         "items": {
                                                             "type": "array",
                                                             "minItems": 1,
-                                                            "maxItems": 2,
+                                                            "maxItems": 2.0,
                                                             "items": {
                                                                 "type": "number"
                                                             }
@@ -3466,8 +3466,8 @@
                                             "type": "array",
                                             "additionalProperties": false,
                                             "minItems": 1,
-                                            "maxItems": 2,
-                                            "description": "",
+                                            "maxItems": 2.0,
+                                            "documentation": "",
                                             "items": {
                                                 "anyOf": [
                                                     {
@@ -3481,7 +3481,7 @@
                                                         "items": {
                                                             "type": "array",
                                                             "minItems": 1,
-                                                            "maxItems": 2,
+                                                            "maxItems": 2.0,
                                                             "items": {
                                                                 "type": "number"
                                                             }
@@ -3543,8 +3543,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -3558,7 +3558,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -3588,8 +3588,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -3603,7 +3603,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -3677,8 +3677,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -3692,7 +3692,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -3722,8 +3722,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -3737,7 +3737,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -3806,8 +3806,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -3821,7 +3821,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -3851,8 +3851,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -3866,7 +3866,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -3929,8 +3929,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -3944,7 +3944,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -3974,8 +3974,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -3989,7 +3989,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -4082,8 +4082,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -4097,7 +4097,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -4127,8 +4127,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -4142,7 +4142,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -4235,8 +4235,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -4250,7 +4250,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -4280,8 +4280,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -4295,7 +4295,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -4451,8 +4451,8 @@
                                             "type": "array",
                                             "additionalProperties": false,
                                             "minItems": 1,
-                                            "maxItems": 2,
-                                            "description": "",
+                                            "maxItems": 2.0,
+                                            "documentation": "",
                                             "items": {
                                                 "anyOf": [
                                                     {
@@ -4466,7 +4466,7 @@
                                                         "items": {
                                                             "type": "array",
                                                             "minItems": 1,
-                                                            "maxItems": 2,
+                                                            "maxItems": 2.0,
                                                             "items": {
                                                                 "type": "number"
                                                             }
@@ -4496,8 +4496,8 @@
                                             "type": "array",
                                             "additionalProperties": false,
                                             "minItems": 1,
-                                            "maxItems": 2,
-                                            "description": "",
+                                            "maxItems": 2.0,
+                                            "documentation": "",
                                             "items": {
                                                 "anyOf": [
                                                     {
@@ -4511,7 +4511,7 @@
                                                         "items": {
                                                             "type": "array",
                                                             "minItems": 1,
-                                                            "maxItems": 2,
+                                                            "maxItems": 2.0,
                                                             "items": {
                                                                 "type": "number"
                                                             }
@@ -4573,8 +4573,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -4588,7 +4588,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -4618,8 +4618,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -4633,7 +4633,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -4709,8 +4709,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -4724,7 +4724,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -4754,8 +4754,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -4769,7 +4769,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -4792,9 +4792,49 @@
                                                     "description": "The mantle temperature for the half-space cooling modelin degree Kelvin for this feature. If the model has an adiabatic gradientthis should be the mantle potential temperature, and T = Tad + Thalf. "
                                                 },
                                                 "spreading velocity": {
-                                                    "default value": -1.0,
-                                                    "type": "number",
-                                                    "description": "The spreading velocity of the plate in meter per year. This is the velocity with which one side moves away from the ridge."
+                                                    "description": "The spreading velocity of the plate in meter per year. This is the velocity with which one side moves away from the ridge.",
+                                                    "oneOf": [
+                                                        {
+                                                            "default value": 0.01,
+                                                            "type": "number",
+                                                            "description": ""
+                                                        },
+                                                        {
+                                                            "type": "array",
+                                                            "minItems": 0,
+                                                            "maxItems": 4294967295,
+                                                            "uniqueItems": false,
+                                                            "description": "",
+                                                            "items": {
+                                                                "type": "array",
+                                                                "additionalProperties": false,
+                                                                "minItems": 1,
+                                                                "maxItems": 18446744073709553000.0,
+                                                                "documentation": "",
+                                                                "items": {
+                                                                    "anyOf": [
+                                                                        {
+                                                                            "type": "number",
+                                                                            "default value": 0.01
+                                                                        },
+                                                                        {
+                                                                            "type": "array",
+                                                                            "minItems": 1,
+                                                                            "maxItems": 4294967295,
+                                                                            "items": {
+                                                                                "type": "array",
+                                                                                "minItems": 1,
+                                                                                "maxItems": 18446744073709553000.0,
+                                                                                "items": {
+                                                                                    "type": "number"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
                                                 },
                                                 "ridge coordinates": {
                                                     "type": "array",
@@ -4866,8 +4906,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -4881,7 +4921,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -4911,8 +4951,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -4926,7 +4966,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -4995,8 +5035,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -5010,7 +5050,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -5040,8 +5080,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -5055,7 +5095,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -5078,9 +5118,49 @@
                                                     "description": "The temperature in degree Kelvin which this feature should have"
                                                 },
                                                 "spreading velocity": {
-                                                    "default value": -1.0,
-                                                    "type": "number",
-                                                    "description": "The spreading velocity of the plate in meter per year. This is the velocity with which one side moves away from the ridge."
+                                                    "description": "The spreading velocity of the plate in meter per year. This is the velocity with which one side moves away from the ridge.",
+                                                    "oneOf": [
+                                                        {
+                                                            "default value": 0.01,
+                                                            "type": "number",
+                                                            "description": ""
+                                                        },
+                                                        {
+                                                            "type": "array",
+                                                            "minItems": 0,
+                                                            "maxItems": 4294967295,
+                                                            "uniqueItems": false,
+                                                            "description": "",
+                                                            "items": {
+                                                                "type": "array",
+                                                                "additionalProperties": false,
+                                                                "minItems": 1,
+                                                                "maxItems": 18446744073709553000.0,
+                                                                "documentation": "",
+                                                                "items": {
+                                                                    "anyOf": [
+                                                                        {
+                                                                            "type": "number",
+                                                                            "default value": 0.01
+                                                                        },
+                                                                        {
+                                                                            "type": "array",
+                                                                            "minItems": 1,
+                                                                            "maxItems": 4294967295,
+                                                                            "items": {
+                                                                                "type": "array",
+                                                                                "minItems": 1,
+                                                                                "maxItems": 18446744073709553000.0,
+                                                                                "items": {
+                                                                                    "type": "number"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
                                                 },
                                                 "ridge coordinates": {
                                                     "type": "array",
@@ -5152,8 +5232,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -5167,7 +5247,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -5197,8 +5277,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -5212,7 +5292,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -5286,8 +5366,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -5301,7 +5381,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -5331,8 +5411,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -5346,7 +5426,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -5409,8 +5489,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -5424,7 +5504,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -5454,8 +5534,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -5469,7 +5549,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -5562,8 +5642,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -5577,7 +5657,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -5607,8 +5687,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -5622,7 +5702,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -5715,8 +5795,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -5730,7 +5810,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -5760,8 +5840,8 @@
                                                                 "type": "array",
                                                                 "additionalProperties": false,
                                                                 "minItems": 1,
-                                                                "maxItems": 2,
-                                                                "description": "",
+                                                                "maxItems": 2.0,
+                                                                "documentation": "",
                                                                 "items": {
                                                                     "anyOf": [
                                                                         {
@@ -5775,7 +5855,7 @@
                                                                             "items": {
                                                                                 "type": "array",
                                                                                 "minItems": 1,
-                                                                                "maxItems": 2,
+                                                                                "maxItems": 2.0,
                                                                                 "items": {
                                                                                     "type": "number"
                                                                                 }
@@ -6126,9 +6206,49 @@
                                                                 "description": "The reference density of the subducting plate in $kg/m^3$"
                                                             },
                                                             "plate velocity": {
-                                                                "default value": 0.05,
-                                                                "type": "number",
-                                                                "description": "The velocity with which the plate subducts in meters per year. Default is 5 cm/yr"
+                                                                "description": "The velocity with which the plate subducts in meters per year. Default is 5 cm/yr",
+                                                                "oneOf": [
+                                                                    {
+                                                                        "default value": 0.01,
+                                                                        "type": "number",
+                                                                        "description": ""
+                                                                    },
+                                                                    {
+                                                                        "type": "array",
+                                                                        "minItems": 0,
+                                                                        "maxItems": 4294967295,
+                                                                        "uniqueItems": false,
+                                                                        "description": "",
+                                                                        "items": {
+                                                                            "type": "array",
+                                                                            "additionalProperties": false,
+                                                                            "minItems": 1,
+                                                                            "maxItems": 18446744073709553000.0,
+                                                                            "documentation": "",
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "type": "number",
+                                                                                        "default value": 0.01
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "array",
+                                                                                        "minItems": 1,
+                                                                                        "maxItems": 4294967295,
+                                                                                        "items": {
+                                                                                            "type": "array",
+                                                                                            "minItems": 1,
+                                                                                            "maxItems": 18446744073709553000.0,
+                                                                                            "items": {
+                                                                                                "type": "number"
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
                                                             },
                                                             "coupling depth": {
                                                                 "default value": 100000.0,
@@ -6817,9 +6937,49 @@
                                                     "description": "The reference density of the subducting plate in $kg/m^3$"
                                                 },
                                                 "plate velocity": {
-                                                    "default value": 0.05,
-                                                    "type": "number",
-                                                    "description": "The velocity with which the plate subducts in meters per year. Default is 5 cm/yr"
+                                                    "description": "The velocity with which the plate subducts in meters per year. Default is 5 cm/yr",
+                                                    "oneOf": [
+                                                        {
+                                                            "default value": 0.01,
+                                                            "type": "number",
+                                                            "description": ""
+                                                        },
+                                                        {
+                                                            "type": "array",
+                                                            "minItems": 0,
+                                                            "maxItems": 4294967295,
+                                                            "uniqueItems": false,
+                                                            "description": "",
+                                                            "items": {
+                                                                "type": "array",
+                                                                "additionalProperties": false,
+                                                                "minItems": 1,
+                                                                "maxItems": 18446744073709553000.0,
+                                                                "documentation": "",
+                                                                "items": {
+                                                                    "anyOf": [
+                                                                        {
+                                                                            "type": "number",
+                                                                            "default value": 0.01
+                                                                        },
+                                                                        {
+                                                                            "type": "array",
+                                                                            "minItems": 1,
+                                                                            "maxItems": 4294967295,
+                                                                            "items": {
+                                                                                "type": "array",
+                                                                                "minItems": 1,
+                                                                                "maxItems": 18446744073709553000.0,
+                                                                                "items": {
+                                                                                    "type": "number"
+                                                                                }
+                                                                            }
+                                                                        }
+                                                                    ]
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
                                                 },
                                                 "coupling depth": {
                                                     "default value": 100000.0,
@@ -7578,9 +7738,49 @@
                                                                             "description": "The reference density of the subducting plate in $kg/m^3$"
                                                                         },
                                                                         "plate velocity": {
-                                                                            "default value": 0.05,
-                                                                            "type": "number",
-                                                                            "description": "The velocity with which the plate subducts in meters per year. Default is 5 cm/yr"
+                                                                            "description": "The velocity with which the plate subducts in meters per year. Default is 5 cm/yr",
+                                                                            "oneOf": [
+                                                                                {
+                                                                                    "default value": 0.01,
+                                                                                    "type": "number",
+                                                                                    "description": ""
+                                                                                },
+                                                                                {
+                                                                                    "type": "array",
+                                                                                    "minItems": 0,
+                                                                                    "maxItems": 4294967295,
+                                                                                    "uniqueItems": false,
+                                                                                    "description": "",
+                                                                                    "items": {
+                                                                                        "type": "array",
+                                                                                        "additionalProperties": false,
+                                                                                        "minItems": 1,
+                                                                                        "maxItems": 18446744073709553000.0,
+                                                                                        "documentation": "",
+                                                                                        "items": {
+                                                                                            "anyOf": [
+                                                                                                {
+                                                                                                    "type": "number",
+                                                                                                    "default value": 0.01
+                                                                                                },
+                                                                                                {
+                                                                                                    "type": "array",
+                                                                                                    "minItems": 1,
+                                                                                                    "maxItems": 4294967295,
+                                                                                                    "items": {
+                                                                                                        "type": "array",
+                                                                                                        "minItems": 1,
+                                                                                                        "maxItems": 18446744073709553000.0,
+                                                                                                        "items": {
+                                                                                                            "type": "number"
+                                                                                                        }
+                                                                                                    }
+                                                                                                }
+                                                                                            ]
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            ]
                                                                         },
                                                                         "coupling depth": {
                                                                             "default value": 100000.0,
@@ -8269,9 +8469,49 @@
                                                                 "description": "The reference density of the subducting plate in $kg/m^3$"
                                                             },
                                                             "plate velocity": {
-                                                                "default value": 0.05,
-                                                                "type": "number",
-                                                                "description": "The velocity with which the plate subducts in meters per year. Default is 5 cm/yr"
+                                                                "description": "The velocity with which the plate subducts in meters per year. Default is 5 cm/yr",
+                                                                "oneOf": [
+                                                                    {
+                                                                        "default value": 0.01,
+                                                                        "type": "number",
+                                                                        "description": ""
+                                                                    },
+                                                                    {
+                                                                        "type": "array",
+                                                                        "minItems": 0,
+                                                                        "maxItems": 4294967295,
+                                                                        "uniqueItems": false,
+                                                                        "description": "",
+                                                                        "items": {
+                                                                            "type": "array",
+                                                                            "additionalProperties": false,
+                                                                            "minItems": 1,
+                                                                            "maxItems": 18446744073709553000.0,
+                                                                            "documentation": "",
+                                                                            "items": {
+                                                                                "anyOf": [
+                                                                                    {
+                                                                                        "type": "number",
+                                                                                        "default value": 0.01
+                                                                                    },
+                                                                                    {
+                                                                                        "type": "array",
+                                                                                        "minItems": 1,
+                                                                                        "maxItems": 4294967295,
+                                                                                        "items": {
+                                                                                            "type": "array",
+                                                                                            "minItems": 1,
+                                                                                            "maxItems": 18446744073709553000.0,
+                                                                                            "items": {
+                                                                                                "type": "number"
+                                                                                            }
+                                                                                        }
+                                                                                    }
+                                                                                ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
                                                             },
                                                             "coupling depth": {
                                                                 "default value": 100000.0,

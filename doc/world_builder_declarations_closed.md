@@ -323,8 +323,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::::::{dropdown} /features/items/oneOf/1/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_1_min-depth_oneOf_2_items_items
 
@@ -349,7 +349,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::::::{dropdown} /features/items/oneOf/1/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_1_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -399,8 +399,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::::::{dropdown} /features/items/oneOf/1/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_1_max-depth_oneOf_2_items_items
 
@@ -425,7 +425,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::::::{dropdown} /features/items/oneOf/1/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_1_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -513,8 +513,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/1/temperature models/items/oneOf/1/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_1_temperature-models_items_oneOf_1_min-depth_oneOf_2_items_items
 
@@ -539,7 +539,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/1/temperature models/items/oneOf/1/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_1_temperature-models_items_oneOf_1_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -589,8 +589,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/1/temperature models/items/oneOf/1/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_1_temperature-models_items_oneOf_1_max-depth_oneOf_2_items_items
 
@@ -615,7 +615,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/1/temperature models/items/oneOf/1/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_1_temperature-models_items_oneOf_1_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -719,8 +719,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/1/temperature models/items/oneOf/2/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_1_temperature-models_items_oneOf_2_min-depth_oneOf_2_items_items
 
@@ -745,7 +745,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/1/temperature models/items/oneOf/2/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_1_temperature-models_items_oneOf_2_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -795,8 +795,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/1/temperature models/items/oneOf/2/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_1_temperature-models_items_oneOf_2_max-depth_oneOf_2_items_items
 
@@ -821,7 +821,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/1/temperature models/items/oneOf/2/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_1_temperature-models_items_oneOf_2_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -917,8 +917,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/1/temperature models/items/oneOf/3/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_1_temperature-models_items_oneOf_3_min-depth_oneOf_2_items_items
 
@@ -943,7 +943,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/1/temperature models/items/oneOf/3/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_1_temperature-models_items_oneOf_3_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -993,8 +993,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/1/temperature models/items/oneOf/3/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_1_temperature-models_items_oneOf_3_max-depth_oneOf_2_items_items
 
@@ -1019,7 +1019,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/1/temperature models/items/oneOf/3/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_1_temperature-models_items_oneOf_3_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -1115,8 +1115,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/1/composition models/items/oneOf/1/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_1_composition-models_items_oneOf_1_min-depth_oneOf_2_items_items
 
@@ -1141,7 +1141,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/1/composition models/items/oneOf/1/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_1_composition-models_items_oneOf_1_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -1191,8 +1191,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/1/composition models/items/oneOf/1/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_1_composition-models_items_oneOf_1_max-depth_oneOf_2_items_items
 
@@ -1217,7 +1217,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/1/composition models/items/oneOf/1/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_1_composition-models_items_oneOf_1_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -1350,8 +1350,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/1/grains models/items/oneOf/1/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_1_grains-models_items_oneOf_1_min-depth_oneOf_2_items_items
 
@@ -1376,7 +1376,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/1/grains models/items/oneOf/1/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_1_grains-models_items_oneOf_1_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -1426,8 +1426,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/1/grains models/items/oneOf/1/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_1_grains-models_items_oneOf_1_max-depth_oneOf_2_items_items
 
@@ -1452,7 +1452,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/1/grains models/items/oneOf/1/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_1_grains-models_items_oneOf_1_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -1586,8 +1586,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/1/grains models/items/oneOf/2/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_1_grains-models_items_oneOf_2_min-depth_oneOf_2_items_items
 
@@ -1612,7 +1612,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/1/grains models/items/oneOf/2/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_1_grains-models_items_oneOf_2_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -1662,8 +1662,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/1/grains models/items/oneOf/2/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_1_grains-models_items_oneOf_2_max-depth_oneOf_2_items_items
 
@@ -1688,7 +1688,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/1/grains models/items/oneOf/2/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_1_grains-models_items_oneOf_2_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -4881,8 +4881,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::::::{dropdown} /features/items/oneOf/3/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_3_min-depth_oneOf_2_items_items
 
@@ -4907,7 +4907,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::::::{dropdown} /features/items/oneOf/3/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_3_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -4957,8 +4957,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::::::{dropdown} /features/items/oneOf/3/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_3_max-depth_oneOf_2_items_items
 
@@ -4983,7 +4983,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::::::{dropdown} /features/items/oneOf/3/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_3_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -5071,8 +5071,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/3/temperature models/items/oneOf/1/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_3_temperature-models_items_oneOf_1_min-depth_oneOf_2_items_items
 
@@ -5097,7 +5097,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/3/temperature models/items/oneOf/1/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_3_temperature-models_items_oneOf_1_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -5147,8 +5147,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/3/temperature models/items/oneOf/1/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_3_temperature-models_items_oneOf_1_max-depth_oneOf_2_items_items
 
@@ -5173,7 +5173,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/3/temperature models/items/oneOf/1/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_3_temperature-models_items_oneOf_1_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -5277,8 +5277,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/3/temperature models/items/oneOf/2/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_3_temperature-models_items_oneOf_2_min-depth_oneOf_2_items_items
 
@@ -5303,7 +5303,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/3/temperature models/items/oneOf/2/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_3_temperature-models_items_oneOf_2_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -5353,8 +5353,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/3/temperature models/items/oneOf/2/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_3_temperature-models_items_oneOf_2_max-depth_oneOf_2_items_items
 
@@ -5379,7 +5379,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/3/temperature models/items/oneOf/2/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_3_temperature-models_items_oneOf_2_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -5475,8 +5475,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/3/temperature models/items/oneOf/3/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_3_temperature-models_items_oneOf_3_min-depth_oneOf_2_items_items
 
@@ -5501,7 +5501,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/3/temperature models/items/oneOf/3/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_3_temperature-models_items_oneOf_3_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -5551,8 +5551,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/3/temperature models/items/oneOf/3/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_3_temperature-models_items_oneOf_3_max-depth_oneOf_2_items_items
 
@@ -5577,7 +5577,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/3/temperature models/items/oneOf/3/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_3_temperature-models_items_oneOf_3_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -5673,8 +5673,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/3/composition models/items/oneOf/1/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_3_composition-models_items_oneOf_1_min-depth_oneOf_2_items_items
 
@@ -5699,7 +5699,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/3/composition models/items/oneOf/1/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_3_composition-models_items_oneOf_1_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -5749,8 +5749,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/3/composition models/items/oneOf/1/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_3_composition-models_items_oneOf_1_max-depth_oneOf_2_items_items
 
@@ -5775,7 +5775,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/3/composition models/items/oneOf/1/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_3_composition-models_items_oneOf_1_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -5908,8 +5908,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/3/grains models/items/oneOf/1/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_3_grains-models_items_oneOf_1_min-depth_oneOf_2_items_items
 
@@ -5934,7 +5934,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/3/grains models/items/oneOf/1/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_3_grains-models_items_oneOf_1_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -5984,8 +5984,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/3/grains models/items/oneOf/1/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_3_grains-models_items_oneOf_1_max-depth_oneOf_2_items_items
 
@@ -6010,7 +6010,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/3/grains models/items/oneOf/1/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_3_grains-models_items_oneOf_1_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -6144,8 +6144,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/3/grains models/items/oneOf/2/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_3_grains-models_items_oneOf_2_min-depth_oneOf_2_items_items
 
@@ -6170,7 +6170,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/3/grains models/items/oneOf/2/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_3_grains-models_items_oneOf_2_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -6220,8 +6220,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/3/grains models/items/oneOf/2/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_3_grains-models_items_oneOf_2_max-depth_oneOf_2_items_items
 
@@ -6246,7 +6246,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/3/grains models/items/oneOf/2/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_3_grains-models_items_oneOf_2_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -6478,8 +6478,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::::::{dropdown} /features/items/oneOf/4/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_min-depth_oneOf_2_items_items
 
@@ -6504,7 +6504,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::::::{dropdown} /features/items/oneOf/4/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -6554,8 +6554,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::::::{dropdown} /features/items/oneOf/4/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_max-depth_oneOf_2_items_items
 
@@ -6580,7 +6580,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::::::{dropdown} /features/items/oneOf/4/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -6668,8 +6668,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/1/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_1_min-depth_oneOf_2_items_items
 
@@ -6694,7 +6694,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/1/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_1_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -6744,8 +6744,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/1/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_1_max-depth_oneOf_2_items_items
 
@@ -6770,7 +6770,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/1/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_1_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -6874,8 +6874,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_2_min-depth_oneOf_2_items_items
 
@@ -6900,7 +6900,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_2_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -6950,8 +6950,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_2_max-depth_oneOf_2_items_items
 
@@ -6976,7 +6976,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_2_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -7016,9 +7016,77 @@
 ::::::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/spreading velocity
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_2_spreading-velocity
 
-- **default value**:-1.0
-- **type**:number
 - **description**:The spreading velocity of the plate in meter per year. This is the velocity with which one side moves away from the ridge.
+:::::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/spreading velocity/oneOf
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_2_spreading-velocity_oneOf
+
+::::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/spreading velocity/oneOf/1
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_2_spreading-velocity_oneOf_1
+
+- **default value**:0.01
+- **type**:number
+- **description**:
+::::::::::::::
+
+::::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/spreading velocity/oneOf/2
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_2_spreading-velocity_oneOf_2
+
+- **type**:array
+- **minItems**:0
+- **maxItems**:4294967295
+- **uniqueItems**:false
+- **description**:
+:::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/spreading velocity/oneOf/2/items
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_2_spreading-velocity_oneOf_2_items
+
+- **type**:array
+- **additionalProperties**:false
+- **minItems**:1
+- **maxItems**:18446744073709553000.0
+- **documentation**:
+::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/spreading velocity/oneOf/2/items/items
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_2_spreading-velocity_oneOf_2_items_items
+
+:::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/spreading velocity/oneOf/2/items/items/anyOf
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_2_spreading-velocity_oneOf_2_items_items_anyOf
+
+::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/spreading velocity/oneOf/2/items/items/anyOf/1
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_2_spreading-velocity_oneOf_2_items_items_anyOf_1
+
+- **type**:number
+- **default value**:0.01
+::::::::::
+
+::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/spreading velocity/oneOf/2/items/items/anyOf/2
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_2_spreading-velocity_oneOf_2_items_items_anyOf_2
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:4294967295
+:::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/spreading velocity/oneOf/2/items/items/anyOf/2/items
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_2_spreading-velocity_oneOf_2_items_items_anyOf_2_items
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:18446744073709553000.0
+::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/spreading velocity/oneOf/2/items/items/anyOf/2/items/items
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_2_spreading-velocity_oneOf_2_items_items_anyOf_2_items_items
+
+- **type**:number
+::::::::
+
+:::::::::
+
+::::::::::
+
+
+::::::::::::
+
+:::::::::::::
+
+::::::::::::::
+
+
 ::::::::::::::::
 
 ::::::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/ridge coordinates
@@ -7115,8 +7183,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/3/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_3_min-depth_oneOf_2_items_items
 
@@ -7141,7 +7209,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/3/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_3_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -7191,8 +7259,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/3/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_3_max-depth_oneOf_2_items_items
 
@@ -7217,7 +7285,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/3/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_3_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -7313,8 +7381,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_4_min-depth_oneOf_2_items_items
 
@@ -7339,7 +7407,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_4_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -7389,8 +7457,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_4_max-depth_oneOf_2_items_items
 
@@ -7415,7 +7483,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_4_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -7455,9 +7523,77 @@
 ::::::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/spreading velocity
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_4_spreading-velocity
 
-- **default value**:-1.0
-- **type**:number
 - **description**:The spreading velocity of the plate in meter per year. This is the velocity with which one side moves away from the ridge.
+:::::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/spreading velocity/oneOf
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_4_spreading-velocity_oneOf
+
+::::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/spreading velocity/oneOf/1
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_4_spreading-velocity_oneOf_1
+
+- **default value**:0.01
+- **type**:number
+- **description**:
+::::::::::::::
+
+::::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/spreading velocity/oneOf/2
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_4_spreading-velocity_oneOf_2
+
+- **type**:array
+- **minItems**:0
+- **maxItems**:4294967295
+- **uniqueItems**:false
+- **description**:
+:::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/spreading velocity/oneOf/2/items
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_4_spreading-velocity_oneOf_2_items
+
+- **type**:array
+- **additionalProperties**:false
+- **minItems**:1
+- **maxItems**:18446744073709553000.0
+- **documentation**:
+::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/spreading velocity/oneOf/2/items/items
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_4_spreading-velocity_oneOf_2_items_items
+
+:::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/spreading velocity/oneOf/2/items/items/anyOf
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_4_spreading-velocity_oneOf_2_items_items_anyOf
+
+::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/spreading velocity/oneOf/2/items/items/anyOf/1
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_4_spreading-velocity_oneOf_2_items_items_anyOf_1
+
+- **type**:number
+- **default value**:0.01
+::::::::::
+
+::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/spreading velocity/oneOf/2/items/items/anyOf/2
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_4_spreading-velocity_oneOf_2_items_items_anyOf_2
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:4294967295
+:::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/spreading velocity/oneOf/2/items/items/anyOf/2/items
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_4_spreading-velocity_oneOf_2_items_items_anyOf_2_items
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:18446744073709553000.0
+::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/spreading velocity/oneOf/2/items/items/anyOf/2/items/items
+:name: closed_features_items_oneOf_4_temperature-models_items_oneOf_4_spreading-velocity_oneOf_2_items_items_anyOf_2_items_items
+
+- **type**:number
+::::::::
+
+:::::::::
+
+::::::::::
+
+
+::::::::::::
+
+:::::::::::::
+
+::::::::::::::
+
+
 ::::::::::::::::
 
 ::::::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/ridge coordinates
@@ -7554,8 +7690,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/5/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_5_min-depth_oneOf_2_items_items
 
@@ -7580,7 +7716,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/5/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_5_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -7630,8 +7766,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/5/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_5_max-depth_oneOf_2_items_items
 
@@ -7656,7 +7792,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/5/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_5_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -7760,8 +7896,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/6/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_6_min-depth_oneOf_2_items_items
 
@@ -7786,7 +7922,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/6/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_6_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -7836,8 +7972,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/6/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_6_max-depth_oneOf_2_items_items
 
@@ -7862,7 +7998,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/6/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_6_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -7958,8 +8094,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/composition models/items/oneOf/1/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_composition-models_items_oneOf_1_min-depth_oneOf_2_items_items
 
@@ -7984,7 +8120,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/composition models/items/oneOf/1/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_composition-models_items_oneOf_1_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -8034,8 +8170,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/composition models/items/oneOf/1/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_composition-models_items_oneOf_1_max-depth_oneOf_2_items_items
 
@@ -8060,7 +8196,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/composition models/items/oneOf/1/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_composition-models_items_oneOf_1_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -8193,8 +8329,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/grains models/items/oneOf/1/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_grains-models_items_oneOf_1_min-depth_oneOf_2_items_items
 
@@ -8219,7 +8355,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/grains models/items/oneOf/1/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_grains-models_items_oneOf_1_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -8269,8 +8405,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/grains models/items/oneOf/1/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_grains-models_items_oneOf_1_max-depth_oneOf_2_items_items
 
@@ -8295,7 +8431,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/grains models/items/oneOf/1/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_grains-models_items_oneOf_1_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -8429,8 +8565,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/grains models/items/oneOf/2/min depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_grains-models_items_oneOf_2_min-depth_oneOf_2_items_items
 
@@ -8455,7 +8591,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/grains models/items/oneOf/2/min depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_grains-models_items_oneOf_2_min-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -8505,8 +8641,8 @@
 - **type**:array
 - **additionalProperties**:false
 - **minItems**:1
-- **maxItems**:2
-- **description**:
+- **maxItems**:2.0
+- **documentation**:
 ::::::::::::{dropdown} /features/items/oneOf/4/grains models/items/oneOf/2/max depth/oneOf/2/items/items
 :name: closed_features_items_oneOf_4_grains-models_items_oneOf_2_max-depth_oneOf_2_items_items
 
@@ -8531,7 +8667,7 @@
 
 - **type**:array
 - **minItems**:1
-- **maxItems**:2
+- **maxItems**:2.0
 ::::::::{dropdown} /features/items/oneOf/4/grains models/items/oneOf/2/max depth/oneOf/2/items/items/anyOf/2/items/items
 :name: closed_features_items_oneOf_4_grains-models_items_oneOf_2_max-depth_oneOf_2_items_items_anyOf_2_items_items
 
@@ -9026,9 +9162,77 @@
 ::::::::::::::{dropdown} /features/items/oneOf/5/segments/items/temperature models/items/oneOf/3/plate velocity
 :name: closed_features_items_oneOf_5_segments_items_temperature-models_items_oneOf_3_plate-velocity
 
-- **default value**:0.05
-- **type**:number
 - **description**:The velocity with which the plate subducts in meters per year. Default is 5 cm/yr
+:::::::::::::{dropdown} /features/items/oneOf/5/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf
+:name: closed_features_items_oneOf_5_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf
+
+::::::::::::{dropdown} /features/items/oneOf/5/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/1
+:name: closed_features_items_oneOf_5_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_1
+
+- **default value**:0.01
+- **type**:number
+- **description**:
+::::::::::::
+
+::::::::::::{dropdown} /features/items/oneOf/5/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2
+:name: closed_features_items_oneOf_5_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2
+
+- **type**:array
+- **minItems**:0
+- **maxItems**:4294967295
+- **uniqueItems**:false
+- **description**:
+:::::::::::{dropdown} /features/items/oneOf/5/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items
+:name: closed_features_items_oneOf_5_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items
+
+- **type**:array
+- **additionalProperties**:false
+- **minItems**:1
+- **maxItems**:18446744073709553000.0
+- **documentation**:
+::::::::::{dropdown} /features/items/oneOf/5/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items
+:name: closed_features_items_oneOf_5_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items
+
+:::::::::{dropdown} /features/items/oneOf/5/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf
+:name: closed_features_items_oneOf_5_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf
+
+::::::::{dropdown} /features/items/oneOf/5/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/1
+:name: closed_features_items_oneOf_5_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_1
+
+- **type**:number
+- **default value**:0.01
+::::::::
+
+::::::::{dropdown} /features/items/oneOf/5/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/2
+:name: closed_features_items_oneOf_5_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_2
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:4294967295
+:::::::{dropdown} /features/items/oneOf/5/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/2/items
+:name: closed_features_items_oneOf_5_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_2_items
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:18446744073709553000.0
+::::::{dropdown} /features/items/oneOf/5/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/2/items/items
+:name: closed_features_items_oneOf_5_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_2_items_items
+
+- **type**:number
+::::::
+
+:::::::
+
+::::::::
+
+
+::::::::::
+
+:::::::::::
+
+::::::::::::
+
+
 ::::::::::::::
 
 ::::::::::::::{dropdown} /features/items/oneOf/5/segments/items/temperature models/items/oneOf/3/coupling depth
@@ -9978,9 +10182,77 @@
 ::::::::::::::::{dropdown} /features/items/oneOf/5/temperature models/items/oneOf/3/plate velocity
 :name: closed_features_items_oneOf_5_temperature-models_items_oneOf_3_plate-velocity
 
-- **default value**:0.05
-- **type**:number
 - **description**:The velocity with which the plate subducts in meters per year. Default is 5 cm/yr
+:::::::::::::::{dropdown} /features/items/oneOf/5/temperature models/items/oneOf/3/plate velocity/oneOf
+:name: closed_features_items_oneOf_5_temperature-models_items_oneOf_3_plate-velocity_oneOf
+
+::::::::::::::{dropdown} /features/items/oneOf/5/temperature models/items/oneOf/3/plate velocity/oneOf/1
+:name: closed_features_items_oneOf_5_temperature-models_items_oneOf_3_plate-velocity_oneOf_1
+
+- **default value**:0.01
+- **type**:number
+- **description**:
+::::::::::::::
+
+::::::::::::::{dropdown} /features/items/oneOf/5/temperature models/items/oneOf/3/plate velocity/oneOf/2
+:name: closed_features_items_oneOf_5_temperature-models_items_oneOf_3_plate-velocity_oneOf_2
+
+- **type**:array
+- **minItems**:0
+- **maxItems**:4294967295
+- **uniqueItems**:false
+- **description**:
+:::::::::::::{dropdown} /features/items/oneOf/5/temperature models/items/oneOf/3/plate velocity/oneOf/2/items
+:name: closed_features_items_oneOf_5_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items
+
+- **type**:array
+- **additionalProperties**:false
+- **minItems**:1
+- **maxItems**:18446744073709553000.0
+- **documentation**:
+::::::::::::{dropdown} /features/items/oneOf/5/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items
+:name: closed_features_items_oneOf_5_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items
+
+:::::::::::{dropdown} /features/items/oneOf/5/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf
+:name: closed_features_items_oneOf_5_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf
+
+::::::::::{dropdown} /features/items/oneOf/5/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/1
+:name: closed_features_items_oneOf_5_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_1
+
+- **type**:number
+- **default value**:0.01
+::::::::::
+
+::::::::::{dropdown} /features/items/oneOf/5/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/2
+:name: closed_features_items_oneOf_5_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_2
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:4294967295
+:::::::::{dropdown} /features/items/oneOf/5/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/2/items
+:name: closed_features_items_oneOf_5_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_2_items
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:18446744073709553000.0
+::::::::{dropdown} /features/items/oneOf/5/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/2/items/items
+:name: closed_features_items_oneOf_5_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_2_items_items
+
+- **type**:number
+::::::::
+
+:::::::::
+
+::::::::::
+
+
+::::::::::::
+
+:::::::::::::
+
+::::::::::::::
+
+
 ::::::::::::::::
 
 ::::::::::::::::{dropdown} /features/items/oneOf/5/temperature models/items/oneOf/3/coupling depth
@@ -11034,9 +11306,77 @@
 ::::::::::::{dropdown} /features/items/oneOf/5/sections/items/segments/items/temperature models/items/oneOf/3/plate velocity
 :name: closed_features_items_oneOf_5_sections_items_segments_items_temperature-models_items_oneOf_3_plate-velocity
 
-- **default value**:0.05
-- **type**:number
 - **description**:The velocity with which the plate subducts in meters per year. Default is 5 cm/yr
+:::::::::::{dropdown} /features/items/oneOf/5/sections/items/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf
+:name: closed_features_items_oneOf_5_sections_items_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf
+
+::::::::::{dropdown} /features/items/oneOf/5/sections/items/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/1
+:name: closed_features_items_oneOf_5_sections_items_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_1
+
+- **default value**:0.01
+- **type**:number
+- **description**:
+::::::::::
+
+::::::::::{dropdown} /features/items/oneOf/5/sections/items/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2
+:name: closed_features_items_oneOf_5_sections_items_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2
+
+- **type**:array
+- **minItems**:0
+- **maxItems**:4294967295
+- **uniqueItems**:false
+- **description**:
+:::::::::{dropdown} /features/items/oneOf/5/sections/items/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items
+:name: closed_features_items_oneOf_5_sections_items_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items
+
+- **type**:array
+- **additionalProperties**:false
+- **minItems**:1
+- **maxItems**:18446744073709553000.0
+- **documentation**:
+::::::::{dropdown} /features/items/oneOf/5/sections/items/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items
+:name: closed_features_items_oneOf_5_sections_items_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items
+
+:::::::{dropdown} /features/items/oneOf/5/sections/items/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf
+:name: closed_features_items_oneOf_5_sections_items_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf
+
+::::::{dropdown} /features/items/oneOf/5/sections/items/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/1
+:name: closed_features_items_oneOf_5_sections_items_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_1
+
+- **type**:number
+- **default value**:0.01
+::::::
+
+::::::{dropdown} /features/items/oneOf/5/sections/items/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/2
+:name: closed_features_items_oneOf_5_sections_items_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_2
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:4294967295
+:::::{dropdown} /features/items/oneOf/5/sections/items/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/2/items
+:name: closed_features_items_oneOf_5_sections_items_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_2_items
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:18446744073709553000.0
+::::{dropdown} /features/items/oneOf/5/sections/items/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/2/items/items
+:name: closed_features_items_oneOf_5_sections_items_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_2_items_items
+
+- **type**:number
+::::
+
+:::::
+
+::::::
+
+
+::::::::
+
+:::::::::
+
+::::::::::
+
+
 ::::::::::::
 
 ::::::::::::{dropdown} /features/items/oneOf/5/sections/items/segments/items/temperature models/items/oneOf/3/coupling depth
@@ -11986,9 +12326,77 @@
 ::::::::::::::{dropdown} /features/items/oneOf/5/sections/items/temperature models/items/oneOf/3/plate velocity
 :name: closed_features_items_oneOf_5_sections_items_temperature-models_items_oneOf_3_plate-velocity
 
-- **default value**:0.05
-- **type**:number
 - **description**:The velocity with which the plate subducts in meters per year. Default is 5 cm/yr
+:::::::::::::{dropdown} /features/items/oneOf/5/sections/items/temperature models/items/oneOf/3/plate velocity/oneOf
+:name: closed_features_items_oneOf_5_sections_items_temperature-models_items_oneOf_3_plate-velocity_oneOf
+
+::::::::::::{dropdown} /features/items/oneOf/5/sections/items/temperature models/items/oneOf/3/plate velocity/oneOf/1
+:name: closed_features_items_oneOf_5_sections_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_1
+
+- **default value**:0.01
+- **type**:number
+- **description**:
+::::::::::::
+
+::::::::::::{dropdown} /features/items/oneOf/5/sections/items/temperature models/items/oneOf/3/plate velocity/oneOf/2
+:name: closed_features_items_oneOf_5_sections_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2
+
+- **type**:array
+- **minItems**:0
+- **maxItems**:4294967295
+- **uniqueItems**:false
+- **description**:
+:::::::::::{dropdown} /features/items/oneOf/5/sections/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items
+:name: closed_features_items_oneOf_5_sections_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items
+
+- **type**:array
+- **additionalProperties**:false
+- **minItems**:1
+- **maxItems**:18446744073709553000.0
+- **documentation**:
+::::::::::{dropdown} /features/items/oneOf/5/sections/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items
+:name: closed_features_items_oneOf_5_sections_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items
+
+:::::::::{dropdown} /features/items/oneOf/5/sections/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf
+:name: closed_features_items_oneOf_5_sections_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf
+
+::::::::{dropdown} /features/items/oneOf/5/sections/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/1
+:name: closed_features_items_oneOf_5_sections_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_1
+
+- **type**:number
+- **default value**:0.01
+::::::::
+
+::::::::{dropdown} /features/items/oneOf/5/sections/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/2
+:name: closed_features_items_oneOf_5_sections_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_2
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:4294967295
+:::::::{dropdown} /features/items/oneOf/5/sections/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/2/items
+:name: closed_features_items_oneOf_5_sections_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_2_items
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:18446744073709553000.0
+::::::{dropdown} /features/items/oneOf/5/sections/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/2/items/items
+:name: closed_features_items_oneOf_5_sections_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_2_items_items
+
+- **type**:number
+::::::
+
+:::::::
+
+::::::::
+
+
+::::::::::
+
+:::::::::::
+
+::::::::::::
+
+
 ::::::::::::::
 
 ::::::::::::::{dropdown} /features/items/oneOf/5/sections/items/temperature models/items/oneOf/3/coupling depth
