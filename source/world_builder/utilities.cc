@@ -1277,10 +1277,9 @@ namespace WorldBuilder
                                            std::vector<std::vector<double>> mid_oceanic_spreading_velocities,
                                            const std::unique_ptr<WorldBuilder::CoordinateSystems::Interface> &coordinate_system,
                                            const Objects::NaturalCoordinate &position_in_natural_coordinates_at_min_depth,
-                                           const std::vector<std::vector<double>> &subducting_plate_velocities,
-                                           const std::vector<double> &ridge_migration_times)
+                                           std::vector<std::vector<double>> subducting_plate_velocities,
+                                           std::vector<double> ridge_migration_times)
     {
-      const double seconds_in_year = 60.0 * 60.0 * 24.0 * 365.25;  // sec/y
 
       double distance_ridge = std::numeric_limits<double>::max();
       double spreading_velocity_at_ridge = 0;
@@ -1334,26 +1333,16 @@ namespace WorldBuilder
           const double spreading_velocity_point0 = mid_oceanic_spreading_velocities[relevant_ridge][i_coordinate];
           const double spreading_velocity_point1 = mid_oceanic_spreading_velocities[relevant_ridge][i_coordinate + 1];
 
-          // When subducting_velocities is not input by the user, default value is 0, which
-          // results in subducting velocity == spreading_velocity. When a single value is
-          // input by the user, subducting velocity != spreading_velocity, but
-          // subducting velocity is spatially constant.
           double subducting_velocity_point0 = subducting_plate_velocities[0][0];
           double subducting_velocity_point1 = subducting_plate_velocities[0][0];
 
-          // When subducting_velocities is input as an array, spatial variation
-          if (subducting_plate_velocities[0].size() > 1)
-            {
-              WBAssertThrow(subducting_plate_velocities.size() == mid_oceanic_ridges.size() && \
-                            subducting_plate_velocities[relevant_ridge].size() == mid_oceanic_ridges[relevant_ridge].size(),
-                            "subducting velocity and ridge coordinates must be the same dimension");
-              WBAssertThrow(ridge_migration_times.size() == mid_oceanic_ridges.size(),
-                            "the times for ridge migration specified in 'spreading velocity' must be the same dimension "
-                            "as ridge coordinates.");
-              subducting_velocity_point0 = subducting_plate_velocities[relevant_ridge][i_coordinate];
-              subducting_velocity_point1 = subducting_plate_velocities[relevant_ridge][i_coordinate + 1];
-              ridge_migration_time = ridge_migration_times[relevant_ridge];
-            }
+          ridge_migration_time = ridge_migration_times[relevant_ridge];
+
+          if (subducting_plate_velocities != std::vector<std::vector<double>> {{0}})
+          {
+            subducting_velocity_point0 = subducting_plate_velocities[relevant_ridge][i_coordinate];
+            subducting_velocity_point1 = subducting_plate_velocities[relevant_ridge][i_coordinate + 1];
+          }
 
           {
             // based on http://geomalgorithms.com/a02-_lines.html
@@ -1370,49 +1359,43 @@ namespace WorldBuilder
             // This part is needed when we want to consider segments instead of lines
             // If you want to have infinite lines, use only the else statement.
 
-            // First, compare the results from the two compare points
-            double spreading_velocity_at_ridge_pt1 = 0.0;
-            double subducting_velocity_at_trench_pt1 = 0.0;
-            double spreading_velocity_at_ridge_pt2 = 0.0;
-            double subducting_velocity_at_trench_pt2 = 0.0;
-
             if (c1 <= 0)
               {
                 Pb1=segment_point0;
-                spreading_velocity_at_ridge_pt1 = spreading_velocity_point0;
-                subducting_velocity_at_trench_pt1 = subducting_velocity_point0;
+                spreading_velocity_at_ridge = spreading_velocity_point0;
+                subducting_velocity_at_trench = subducting_velocity_point0;
               }
             else if (c <= c1)
               {
                 Pb1=segment_point1;
-                spreading_velocity_at_ridge_pt1 = spreading_velocity_point1;
-                subducting_velocity_at_trench_pt1 = subducting_velocity_point1;
+                spreading_velocity_at_ridge = spreading_velocity_point1;
+                subducting_velocity_at_trench = subducting_velocity_point1;
               }
             else
               {
                 Pb1=segment_point0 + (c1 / c) * v;
-                spreading_velocity_at_ridge_pt1 = spreading_velocity_point0 + (spreading_velocity_point1 - spreading_velocity_point0) * (c1 / c);
-                subducting_velocity_at_trench_pt1 = subducting_velocity_point0 + (subducting_velocity_point1 - subducting_velocity_point0) * (c1 / c);
+                spreading_velocity_at_ridge = spreading_velocity_point0 + (spreading_velocity_point1 - spreading_velocity_point0) * (c1 / c);
+                subducting_velocity_at_trench = subducting_velocity_point0 + (subducting_velocity_point1 - subducting_velocity_point0) * (c1 / c);
               }
 
             Point<2> Pb2(coordinate_system->natural_coordinate_system());
             if (c2 <= 0)
               {
                 Pb2=segment_point0;
-                spreading_velocity_at_ridge_pt2 = spreading_velocity_point0;
-                subducting_velocity_at_trench_pt2 = subducting_velocity_point0;
+                spreading_velocity_at_ridge = spreading_velocity_point0;
+                subducting_velocity_at_trench = subducting_velocity_point0;
               }
             else if (c <= c2)
               {
                 Pb2=segment_point1;
-                spreading_velocity_at_ridge_pt2 = spreading_velocity_point1;
-                subducting_velocity_at_trench_pt2 = spreading_velocity_point1;
+                spreading_velocity_at_ridge = spreading_velocity_point1;
+                subducting_velocity_at_trench = spreading_velocity_point1;
               }
             else
               {
                 Pb2=segment_point0 + (c1 / c) * v;
-                spreading_velocity_at_ridge_pt2 = spreading_velocity_point0 + (spreading_velocity_point1 - spreading_velocity_point0) * (c1 / c);
-                subducting_velocity_at_trench_pt2 = subducting_velocity_point0 + (subducting_velocity_point1 - subducting_velocity_point0) * (c1 / c);
+                spreading_velocity_at_ridge = spreading_velocity_point0 + (spreading_velocity_point1 - spreading_velocity_point0) * (c1 / c);
+                subducting_velocity_at_trench = subducting_velocity_point0 + (subducting_velocity_point1 - subducting_velocity_point0) * (c1 / c);
               }
 
             Point<3> compare_point1(coordinate_system->natural_coordinate_system());
@@ -1426,37 +1409,21 @@ namespace WorldBuilder
             compare_point2[1] = coordinate_system->natural_coordinate_system() == cartesian ? Pb2[1] : Pb2[0];
             compare_point2[2] = coordinate_system->natural_coordinate_system() == cartesian ? position_in_natural_coordinates_at_min_depth.get_depth_coordinate() : Pb2[1];
 
-            const double compare_distance1 = coordinate_system->distance_between_points_at_same_depth(Point<3>(position_in_natural_coordinates_at_min_depth.get_coordinates(),
+            distance_ridge = std::min(distance_ridge,
+                                      coordinate_system->distance_between_points_at_same_depth(Point<3>(position_in_natural_coordinates_at_min_depth.get_coordinates(),
                                           position_in_natural_coordinates_at_min_depth.get_coordinate_system()),
-                                          compare_point1);
-            
-            const double compare_distance2 = coordinate_system->distance_between_points_at_same_depth(Point<3>(position_in_natural_coordinates_at_min_depth.get_coordinates(),
+                                          compare_point1));
+
+            distance_ridge = std::min(distance_ridge,
+                                      coordinate_system->distance_between_points_at_same_depth(Point<3>(position_in_natural_coordinates_at_min_depth.get_coordinates(),
                                           position_in_natural_coordinates_at_min_depth.get_coordinate_system()),
-                                          compare_point2);
-
-            double compare_distance = compare_distance1;
-            double spreading_velocity_at_ridge_pt = spreading_velocity_at_ridge_pt1;
-            double subducting_velocity_at_trench_pt = subducting_velocity_at_trench_pt1;
-            
-            if (compare_distance2 < compare_distance1){
-              compare_distance = compare_distance2;
-              spreading_velocity_at_ridge_pt = spreading_velocity_at_ridge_pt2;
-              subducting_velocity_at_trench_pt = subducting_velocity_at_trench_pt2;
-            }
-
-            // Then, the distance and velocities are taken from the nearest point on the ridge 
-            if (i_coordinate == 0 || compare_distance < distance_ridge)
-            {
-              distance_ridge = compare_distance;
-              spreading_velocity_at_ridge = spreading_velocity_at_ridge_pt;
-              subducting_velocity_at_trench = subducting_velocity_at_trench_pt;
-            }
+                                          compare_point2));
           }
         }
       std::vector<double> result;
-      result.push_back(spreading_velocity_at_ridge / seconds_in_year); // m/s
+      result.push_back(spreading_velocity_at_ridge / 31557600); // m/s
       result.push_back(distance_ridge);
-      result.push_back(subducting_velocity_at_trench / seconds_in_year); // m/s
+      result.push_back(subducting_velocity_at_trench / 31557600); // m/s
       result.push_back(ridge_migration_time);
       return result;
     }
@@ -1496,8 +1463,7 @@ namespace WorldBuilder
 
       // Plate age increases with distance along the slab in the mantle
       double effective_plate_age = plate_age_sec + (distance_along_plane / subducting_velocity + effective_age_shift) * seconds_in_year; // m/(m/y) = y(seconds_in_year)
-      WBAssertThrow(effective_plate_age >= 0, "The age of the subducting plate is less than or equal to 0. "
-                    "Effective plate age: " << effective_plate_age);
+
       std::vector<double> result;
       result.push_back(age_at_trench);
       result.push_back(effective_plate_age);

@@ -465,8 +465,8 @@ namespace WorldBuilder
                                            std::vector<std::vector<double>> mid_oceanic_spreading_velocities,
                                            const std::unique_ptr<WorldBuilder::CoordinateSystems::Interface> &coordinate_system,
                                            const Objects::NaturalCoordinate &position_in_natural_coordinates_at_min_depth,
-                                           const std::vector<std::vector<double>> &subducting_plate_velocities,
-                                           const std::vector<double> &ridge_migration_times);
+    std::vector<std::vector<double>> subducting_plate_velocities = {{0.0}},
+    std::vector<double> ridge_migration_times = {0.0});
 
     // todo_effective
     /**
