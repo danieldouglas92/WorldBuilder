@@ -5485,7 +5485,7 @@
                                                     "description": "The spreading velocity of the plate in meter per year. This is the velocity with which one side moves away from the ridge.",
                                                     "oneOf": [
                                                         {
-                                                            "default value": 0.01,
+                                                            "default value": 0.05,
                                                             "type": "number",
                                                             "description": ""
                                                         },
@@ -5505,7 +5505,7 @@
                                                                     "anyOf": [
                                                                         {
                                                                             "type": "number",
-                                                                            "default value": 0.01
+                                                                            "default value": 0.05
                                                                         },
                                                                         {
                                                                             "type": "array",
@@ -5811,7 +5811,7 @@
                                                     "description": "The spreading velocity of the plate in meter per year. This is the velocity with which one side moves away from the ridge.",
                                                     "oneOf": [
                                                         {
-                                                            "default value": 0.01,
+                                                            "default value": 0.05,
                                                             "type": "number",
                                                             "description": ""
                                                         },
@@ -5831,7 +5831,7 @@
                                                                     "anyOf": [
                                                                         {
                                                                             "type": "number",
-                                                                            "default value": 0.01
+                                                                            "default value": 0.05
                                                                         },
                                                                         {
                                                                             "type": "array",
@@ -7483,7 +7483,7 @@
                                                                 "description": "The velocity with which the plate subducts in meters per year. Default is 5 cm/yr",
                                                                 "oneOf": [
                                                                     {
-                                                                        "default value": 0.01,
+                                                                        "default value": 0.05,
                                                                         "type": "number",
                                                                         "description": ""
                                                                     },
@@ -7503,7 +7503,7 @@
                                                                                 "anyOf": [
                                                                                     {
                                                                                         "type": "number",
-                                                                                        "default value": 0.01
+                                                                                        "default value": 0.05
                                                                                     },
                                                                                     {
                                                                                         "type": "array",
@@ -7519,6 +7519,35 @@
                                                                                         }
                                                                                     }
                                                                                 ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "subducting velocity": {
+                                                                "description": "The velocity with which the ridge is moving through time, and how long the ridge has been moving. First value is the velocity, second is the time. Default is [0 cm/yr, 0 yr]",
+                                                                "oneOf": [
+                                                                    {
+                                                                        "default value": -1.0,
+                                                                        "type": "number",
+                                                                        "description": ""
+                                                                    },
+                                                                    {
+                                                                        "type": "array",
+                                                                        "minItems": 1,
+                                                                        "maxItems": 4294967295,
+                                                                        "uniqueItems": false,
+                                                                        "description": "",
+                                                                        "items": {
+                                                                            "type": "array",
+                                                                            "minItems": 1,
+                                                                            "maxItems": 4294967295,
+                                                                            "uniqueItems": false,
+                                                                            "description": "",
+                                                                            "items": {
+                                                                                "default value": -1.0,
+                                                                                "type": "number",
+                                                                                "description": ""
                                                                             }
                                                                         }
                                                                     }
@@ -8299,7 +8328,7 @@
                                                     "description": "The velocity with which the plate subducts in meters per year. Default is 5 cm/yr",
                                                     "oneOf": [
                                                         {
-                                                            "default value": 0.01,
+                                                            "default value": 0.05,
                                                             "type": "number",
                                                             "description": ""
                                                         },
@@ -8319,7 +8348,7 @@
                                                                     "anyOf": [
                                                                         {
                                                                             "type": "number",
-                                                                            "default value": 0.01
+                                                                            "default value": 0.05
                                                                         },
                                                                         {
                                                                             "type": "array",
@@ -8335,6 +8364,35 @@
                                                                             }
                                                                         }
                                                                     ]
+                                                                }
+                                                            }
+                                                        }
+                                                    ]
+                                                },
+                                                "subducting velocity": {
+                                                    "description": "The velocity with which the ridge is moving through time, and how long the ridge has been moving. First value is the velocity, second is the time. Default is [0 cm/yr, 0 yr]",
+                                                    "oneOf": [
+                                                        {
+                                                            "default value": -1.0,
+                                                            "type": "number",
+                                                            "description": ""
+                                                        },
+                                                        {
+                                                            "type": "array",
+                                                            "minItems": 1,
+                                                            "maxItems": 4294967295,
+                                                            "uniqueItems": false,
+                                                            "description": "",
+                                                            "items": {
+                                                                "type": "array",
+                                                                "minItems": 1,
+                                                                "maxItems": 4294967295,
+                                                                "uniqueItems": false,
+                                                                "description": "",
+                                                                "items": {
+                                                                    "default value": -1.0,
+                                                                    "type": "number",
+                                                                    "description": ""
                                                                 }
                                                             }
                                                         }
@@ -9185,7 +9243,7 @@
                                                                             "description": "The velocity with which the plate subducts in meters per year. Default is 5 cm/yr",
                                                                             "oneOf": [
                                                                                 {
-                                                                                    "default value": 0.01,
+                                                                                    "default value": 0.05,
                                                                                     "type": "number",
                                                                                     "description": ""
                                                                                 },
@@ -9205,7 +9263,7 @@
                                                                                             "anyOf": [
                                                                                                 {
                                                                                                     "type": "number",
-                                                                                                    "default value": 0.01
+                                                                                                    "default value": 0.05
                                                                                                 },
                                                                                                 {
                                                                                                     "type": "array",
@@ -9221,6 +9279,35 @@
                                                                                                     }
                                                                                                 }
                                                                                             ]
+                                                                                        }
+                                                                                    }
+                                                                                }
+                                                                            ]
+                                                                        },
+                                                                        "subducting velocity": {
+                                                                            "description": "The velocity with which the ridge is moving through time, and how long the ridge has been moving. First value is the velocity, second is the time. Default is [0 cm/yr, 0 yr]",
+                                                                            "oneOf": [
+                                                                                {
+                                                                                    "default value": -1.0,
+                                                                                    "type": "number",
+                                                                                    "description": ""
+                                                                                },
+                                                                                {
+                                                                                    "type": "array",
+                                                                                    "minItems": 1,
+                                                                                    "maxItems": 4294967295,
+                                                                                    "uniqueItems": false,
+                                                                                    "description": "",
+                                                                                    "items": {
+                                                                                        "type": "array",
+                                                                                        "minItems": 1,
+                                                                                        "maxItems": 4294967295,
+                                                                                        "uniqueItems": false,
+                                                                                        "description": "",
+                                                                                        "items": {
+                                                                                            "default value": -1.0,
+                                                                                            "type": "number",
+                                                                                            "description": ""
                                                                                         }
                                                                                     }
                                                                                 }
@@ -10001,7 +10088,7 @@
                                                                 "description": "The velocity with which the plate subducts in meters per year. Default is 5 cm/yr",
                                                                 "oneOf": [
                                                                     {
-                                                                        "default value": 0.01,
+                                                                        "default value": 0.05,
                                                                         "type": "number",
                                                                         "description": ""
                                                                     },
@@ -10021,7 +10108,7 @@
                                                                                 "anyOf": [
                                                                                     {
                                                                                         "type": "number",
-                                                                                        "default value": 0.01
+                                                                                        "default value": 0.05
                                                                                     },
                                                                                     {
                                                                                         "type": "array",
@@ -10037,6 +10124,35 @@
                                                                                         }
                                                                                     }
                                                                                 ]
+                                                                            }
+                                                                        }
+                                                                    }
+                                                                ]
+                                                            },
+                                                            "subducting velocity": {
+                                                                "description": "The velocity with which the ridge is moving through time, and how long the ridge has been moving. First value is the velocity, second is the time. Default is [0 cm/yr, 0 yr]",
+                                                                "oneOf": [
+                                                                    {
+                                                                        "default value": -1.0,
+                                                                        "type": "number",
+                                                                        "description": ""
+                                                                    },
+                                                                    {
+                                                                        "type": "array",
+                                                                        "minItems": 1,
+                                                                        "maxItems": 4294967295,
+                                                                        "uniqueItems": false,
+                                                                        "description": "",
+                                                                        "items": {
+                                                                            "type": "array",
+                                                                            "minItems": 1,
+                                                                            "maxItems": 4294967295,
+                                                                            "uniqueItems": false,
+                                                                            "description": "",
+                                                                            "items": {
+                                                                                "default value": -1.0,
+                                                                                "type": "number",
+                                                                                "description": ""
                                                                             }
                                                                         }
                                                                     }

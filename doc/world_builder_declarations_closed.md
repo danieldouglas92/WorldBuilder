@@ -8035,7 +8035,7 @@
 ::::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/spreading velocity/oneOf/1
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_2_spreading-velocity_oneOf_1
 
-- **default value**:0.01
+- **default value**:0.05
 - **type**:number
 - **description**:
 ::::::::::::::
@@ -8066,7 +8066,7 @@
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_2_spreading-velocity_oneOf_2_items_items_anyOf_1
 
 - **type**:number
-- **default value**:0.01
+- **default value**:0.05
 ::::::::::
 
 ::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/2/spreading velocity/oneOf/2/items/items/anyOf/2
@@ -8542,7 +8542,7 @@
 ::::::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/spreading velocity/oneOf/1
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_4_spreading-velocity_oneOf_1
 
-- **default value**:0.01
+- **default value**:0.05
 - **type**:number
 - **description**:
 ::::::::::::::
@@ -8573,7 +8573,7 @@
 :name: closed_features_items_oneOf_4_temperature-models_items_oneOf_4_spreading-velocity_oneOf_2_items_items_anyOf_1
 
 - **type**:number
-- **default value**:0.01
+- **default value**:0.05
 ::::::::::
 
 ::::::::::{dropdown} /features/items/oneOf/4/temperature models/items/oneOf/4/spreading velocity/oneOf/2/items/items/anyOf/2
@@ -11020,7 +11020,7 @@
 ::::::::::::{dropdown} /features/items/oneOf/6/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/1
 :name: closed_features_items_oneOf_6_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_1
 
-- **default value**:0.01
+- **default value**:0.05
 - **type**:number
 - **description**:
 ::::::::::::
@@ -11051,7 +11051,7 @@
 :name: closed_features_items_oneOf_6_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_1
 
 - **type**:number
-- **default value**:0.01
+- **default value**:0.05
 ::::::::
 
 ::::::::{dropdown} /features/items/oneOf/6/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/2
@@ -11077,6 +11077,52 @@
 ::::::::
 
 
+::::::::::
+
+:::::::::::
+
+::::::::::::
+
+
+::::::::::::::
+
+::::::::::::::{dropdown} /features/items/oneOf/6/segments/items/temperature models/items/oneOf/3/subducting velocity
+:name: closed_features_items_oneOf_6_segments_items_temperature-models_items_oneOf_3_subducting-velocity
+
+- **description**:The velocity with which the ridge is moving through time, and how long the ridge has been moving. First value is the velocity, second is the time. Default is [0 cm/yr, 0 yr]
+:::::::::::::{dropdown} /features/items/oneOf/6/segments/items/temperature models/items/oneOf/3/subducting velocity/oneOf
+:name: closed_features_items_oneOf_6_segments_items_temperature-models_items_oneOf_3_subducting-velocity_oneOf
+
+::::::::::::{dropdown} /features/items/oneOf/6/segments/items/temperature models/items/oneOf/3/subducting velocity/oneOf/1
+:name: closed_features_items_oneOf_6_segments_items_temperature-models_items_oneOf_3_subducting-velocity_oneOf_1
+
+- **default value**:-1.0
+- **type**:number
+- **description**:
+::::::::::::
+
+::::::::::::{dropdown} /features/items/oneOf/6/segments/items/temperature models/items/oneOf/3/subducting velocity/oneOf/2
+:name: closed_features_items_oneOf_6_segments_items_temperature-models_items_oneOf_3_subducting-velocity_oneOf_2
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:4294967295
+- **uniqueItems**:false
+- **description**:
+:::::::::::{dropdown} /features/items/oneOf/6/segments/items/temperature models/items/oneOf/3/subducting velocity/oneOf/2/items
+:name: closed_features_items_oneOf_6_segments_items_temperature-models_items_oneOf_3_subducting-velocity_oneOf_2_items
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:4294967295
+- **uniqueItems**:false
+- **description**:
+::::::::::{dropdown} /features/items/oneOf/6/segments/items/temperature models/items/oneOf/3/subducting velocity/oneOf/2/items/items
+:name: closed_features_items_oneOf_6_segments_items_temperature-models_items_oneOf_3_subducting-velocity_oneOf_2_items_items
+
+- **default value**:-1.0
+- **type**:number
+- **description**:
 ::::::::::
 
 :::::::::::
@@ -12158,7 +12204,7 @@
 ::::::::::::::{dropdown} /features/items/oneOf/6/temperature models/items/oneOf/3/plate velocity/oneOf/1
 :name: closed_features_items_oneOf_6_temperature-models_items_oneOf_3_plate-velocity_oneOf_1
 
-- **default value**:0.01
+- **default value**:0.05
 - **type**:number
 - **description**:
 ::::::::::::::
@@ -12189,7 +12235,7 @@
 :name: closed_features_items_oneOf_6_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_1
 
 - **type**:number
-- **default value**:0.01
+- **default value**:0.05
 ::::::::::
 
 ::::::::::{dropdown} /features/items/oneOf/6/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/2
@@ -12215,6 +12261,52 @@
 ::::::::::
 
 
+::::::::::::
+
+:::::::::::::
+
+::::::::::::::
+
+
+::::::::::::::::
+
+::::::::::::::::{dropdown} /features/items/oneOf/6/temperature models/items/oneOf/3/subducting velocity
+:name: closed_features_items_oneOf_6_temperature-models_items_oneOf_3_subducting-velocity
+
+- **description**:The velocity with which the ridge is moving through time, and how long the ridge has been moving. First value is the velocity, second is the time. Default is [0 cm/yr, 0 yr]
+:::::::::::::::{dropdown} /features/items/oneOf/6/temperature models/items/oneOf/3/subducting velocity/oneOf
+:name: closed_features_items_oneOf_6_temperature-models_items_oneOf_3_subducting-velocity_oneOf
+
+::::::::::::::{dropdown} /features/items/oneOf/6/temperature models/items/oneOf/3/subducting velocity/oneOf/1
+:name: closed_features_items_oneOf_6_temperature-models_items_oneOf_3_subducting-velocity_oneOf_1
+
+- **default value**:-1.0
+- **type**:number
+- **description**:
+::::::::::::::
+
+::::::::::::::{dropdown} /features/items/oneOf/6/temperature models/items/oneOf/3/subducting velocity/oneOf/2
+:name: closed_features_items_oneOf_6_temperature-models_items_oneOf_3_subducting-velocity_oneOf_2
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:4294967295
+- **uniqueItems**:false
+- **description**:
+:::::::::::::{dropdown} /features/items/oneOf/6/temperature models/items/oneOf/3/subducting velocity/oneOf/2/items
+:name: closed_features_items_oneOf_6_temperature-models_items_oneOf_3_subducting-velocity_oneOf_2_items
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:4294967295
+- **uniqueItems**:false
+- **description**:
+::::::::::::{dropdown} /features/items/oneOf/6/temperature models/items/oneOf/3/subducting velocity/oneOf/2/items/items
+:name: closed_features_items_oneOf_6_temperature-models_items_oneOf_3_subducting-velocity_oneOf_2_items_items
+
+- **default value**:-1.0
+- **type**:number
+- **description**:
 ::::::::::::
 
 :::::::::::::
@@ -13400,7 +13492,7 @@
 ::::::::::{dropdown} /features/items/oneOf/6/sections/items/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/1
 :name: closed_features_items_oneOf_6_sections_items_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_1
 
-- **default value**:0.01
+- **default value**:0.05
 - **type**:number
 - **description**:
 ::::::::::
@@ -13431,7 +13523,7 @@
 :name: closed_features_items_oneOf_6_sections_items_segments_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_1
 
 - **type**:number
-- **default value**:0.01
+- **default value**:0.05
 ::::::
 
 ::::::{dropdown} /features/items/oneOf/6/sections/items/segments/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/2
@@ -13457,6 +13549,52 @@
 ::::::
 
 
+::::::::
+
+:::::::::
+
+::::::::::
+
+
+::::::::::::
+
+::::::::::::{dropdown} /features/items/oneOf/6/sections/items/segments/items/temperature models/items/oneOf/3/subducting velocity
+:name: closed_features_items_oneOf_6_sections_items_segments_items_temperature-models_items_oneOf_3_subducting-velocity
+
+- **description**:The velocity with which the ridge is moving through time, and how long the ridge has been moving. First value is the velocity, second is the time. Default is [0 cm/yr, 0 yr]
+:::::::::::{dropdown} /features/items/oneOf/6/sections/items/segments/items/temperature models/items/oneOf/3/subducting velocity/oneOf
+:name: closed_features_items_oneOf_6_sections_items_segments_items_temperature-models_items_oneOf_3_subducting-velocity_oneOf
+
+::::::::::{dropdown} /features/items/oneOf/6/sections/items/segments/items/temperature models/items/oneOf/3/subducting velocity/oneOf/1
+:name: closed_features_items_oneOf_6_sections_items_segments_items_temperature-models_items_oneOf_3_subducting-velocity_oneOf_1
+
+- **default value**:-1.0
+- **type**:number
+- **description**:
+::::::::::
+
+::::::::::{dropdown} /features/items/oneOf/6/sections/items/segments/items/temperature models/items/oneOf/3/subducting velocity/oneOf/2
+:name: closed_features_items_oneOf_6_sections_items_segments_items_temperature-models_items_oneOf_3_subducting-velocity_oneOf_2
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:4294967295
+- **uniqueItems**:false
+- **description**:
+:::::::::{dropdown} /features/items/oneOf/6/sections/items/segments/items/temperature models/items/oneOf/3/subducting velocity/oneOf/2/items
+:name: closed_features_items_oneOf_6_sections_items_segments_items_temperature-models_items_oneOf_3_subducting-velocity_oneOf_2_items
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:4294967295
+- **uniqueItems**:false
+- **description**:
+::::::::{dropdown} /features/items/oneOf/6/sections/items/segments/items/temperature models/items/oneOf/3/subducting velocity/oneOf/2/items/items
+:name: closed_features_items_oneOf_6_sections_items_segments_items_temperature-models_items_oneOf_3_subducting-velocity_oneOf_2_items_items
+
+- **default value**:-1.0
+- **type**:number
+- **description**:
 ::::::::
 
 :::::::::
@@ -14538,7 +14676,7 @@
 ::::::::::::{dropdown} /features/items/oneOf/6/sections/items/temperature models/items/oneOf/3/plate velocity/oneOf/1
 :name: closed_features_items_oneOf_6_sections_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_1
 
-- **default value**:0.01
+- **default value**:0.05
 - **type**:number
 - **description**:
 ::::::::::::
@@ -14569,7 +14707,7 @@
 :name: closed_features_items_oneOf_6_sections_items_temperature-models_items_oneOf_3_plate-velocity_oneOf_2_items_items_anyOf_1
 
 - **type**:number
-- **default value**:0.01
+- **default value**:0.05
 ::::::::
 
 ::::::::{dropdown} /features/items/oneOf/6/sections/items/temperature models/items/oneOf/3/plate velocity/oneOf/2/items/items/anyOf/2
@@ -14595,6 +14733,52 @@
 ::::::::
 
 
+::::::::::
+
+:::::::::::
+
+::::::::::::
+
+
+::::::::::::::
+
+::::::::::::::{dropdown} /features/items/oneOf/6/sections/items/temperature models/items/oneOf/3/subducting velocity
+:name: closed_features_items_oneOf_6_sections_items_temperature-models_items_oneOf_3_subducting-velocity
+
+- **description**:The velocity with which the ridge is moving through time, and how long the ridge has been moving. First value is the velocity, second is the time. Default is [0 cm/yr, 0 yr]
+:::::::::::::{dropdown} /features/items/oneOf/6/sections/items/temperature models/items/oneOf/3/subducting velocity/oneOf
+:name: closed_features_items_oneOf_6_sections_items_temperature-models_items_oneOf_3_subducting-velocity_oneOf
+
+::::::::::::{dropdown} /features/items/oneOf/6/sections/items/temperature models/items/oneOf/3/subducting velocity/oneOf/1
+:name: closed_features_items_oneOf_6_sections_items_temperature-models_items_oneOf_3_subducting-velocity_oneOf_1
+
+- **default value**:-1.0
+- **type**:number
+- **description**:
+::::::::::::
+
+::::::::::::{dropdown} /features/items/oneOf/6/sections/items/temperature models/items/oneOf/3/subducting velocity/oneOf/2
+:name: closed_features_items_oneOf_6_sections_items_temperature-models_items_oneOf_3_subducting-velocity_oneOf_2
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:4294967295
+- **uniqueItems**:false
+- **description**:
+:::::::::::{dropdown} /features/items/oneOf/6/sections/items/temperature models/items/oneOf/3/subducting velocity/oneOf/2/items
+:name: closed_features_items_oneOf_6_sections_items_temperature-models_items_oneOf_3_subducting-velocity_oneOf_2_items
+
+- **type**:array
+- **minItems**:1
+- **maxItems**:4294967295
+- **uniqueItems**:false
+- **description**:
+::::::::::{dropdown} /features/items/oneOf/6/sections/items/temperature models/items/oneOf/3/subducting velocity/oneOf/2/items/items
+:name: closed_features_items_oneOf_6_sections_items_temperature-models_items_oneOf_3_subducting-velocity_oneOf_2_items_items
+
+- **default value**:-1.0
+- **type**:number
+- **description**:
 ::::::::::
 
 :::::::::::
