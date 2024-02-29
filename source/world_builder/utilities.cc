@@ -1410,9 +1410,9 @@ namespace WorldBuilder
               }
             else
               {
-                Pb2=segment_point0 + (c1 / c) * v;
-                spreading_velocity_at_ridge_pt2 = spreading_velocity_point0 + (spreading_velocity_point1 - spreading_velocity_point0) * (c1 / c);
-                subducting_velocity_at_trench_pt2 = subducting_velocity_point0 + (subducting_velocity_point1 - subducting_velocity_point0) * (c1 / c);
+                Pb2=segment_point0 + (c2 / c) * v;
+                spreading_velocity_at_ridge_pt2 = spreading_velocity_point0 + (spreading_velocity_point1 - spreading_velocity_point0) * (c2 / c);
+                subducting_velocity_at_trench_pt2 = subducting_velocity_point0 + (subducting_velocity_point1 - subducting_velocity_point0) * (c2 / c);
               }
 
             Point<3> compare_point1(coordinate_system->natural_coordinate_system());
