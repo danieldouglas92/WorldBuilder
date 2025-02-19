@@ -17,7 +17,7 @@
    along with this program.  If not, see <https://www.gnu.org/licenses/>.
 */
 
-#include "world_builder/features/oceanic_plate_models/composition/COH_water_content.h"
+#include "world_builder/features/oceanic_plate_models/composition/coh_water_content.h"
 
 #include "world_builder/kd_tree.h"
 #include "world_builder/nan.h"
@@ -182,11 +182,14 @@ namespace WorldBuilder
                   // typically deal with fractions, so we divide by 100 below
                   partition_coefficient = std::min(max_water_content, partition_coefficient) / 100;
 
+                  const double mass_fraction_olivine = 1 - partition_coefficient; // mass fraction of olivine
+                  const double COH = (partition_coefficient/molar_mass_H2O) / (mass_fraction_olivine/molar_mass_olivine) * 1e6; // COH in H / Si ppm
+
                   for (unsigned int i = 0; i < compositions.size(); ++i)
                     {
                       if (compositions[i] == composition_number)
                         {
-                          return apply_operation(operation,composition, partition_coefficient);
+                          return apply_operation(operation,composition, COH);
                         }
                     }
 
@@ -198,7 +201,7 @@ namespace WorldBuilder
             }
           return composition;
         }
-        WB_REGISTER_FEATURE_OCEANIC_PLATE_COMPOSITION_MODEL(COHWaterContent, COH water content)
+        WB_REGISTER_FEATURE_OCEANIC_PLATE_COMPOSITION_MODEL(COHWaterContent, coh water content)
       } // namespace Composition
     } // namespace OceanicPlateModels
   } // namespace Features

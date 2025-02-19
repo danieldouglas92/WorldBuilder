@@ -140,6 +140,8 @@ namespace WorldBuilder
             // Maximum pressure for the lithologies (Peridotite, Gabbro, MORB, Sediment). These are required because
             // Above these pressures, the parameterized phase diagrams break down and the solubility goes to infinity.
             double cutoff_pressure;
+            double molar_mass_olivine = 0.1470027; // kg/mol
+            double molar_mass_H2O = 0.01801528; // kg/mol
         };
       } // namespace Composition
     } // namespace OceanicPlateModels
